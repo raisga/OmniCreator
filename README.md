@@ -1,6 +1,6 @@
-# .RAAN
+# RAAN
 
-> (R)eliable (A)gentic (A)I (N)otebook
+> [R]eliable [A]gentic [A]I [N]otebook
 
 This repository contains the specifications for the .RAAN project, which aims to create a reliable agentic AI notebook file system. The specifications outline the architecture of the file extension.
 
@@ -21,6 +21,8 @@ To use the RAAN notebook system, follow these steps:
 
 - [ ] Update `/scripts` to use python scripts instead of bash scripts.
 - [ ] Update `ollama` to `localai` in jupyter notebooks.
+- [ ] Use XML tags for metadata in the RAAN notebook files?
+- [ ] Replace HTML `data-tag` with XML tags for template.
 - [ ] Research the best practices for structuring file extensions for AI notebooks.
 - [ ] Complete the specifications for the file extension, check what is the "industry standard" for AI notebooks.
 - [ ] Implement a plugin for VS Code to improve the editing experience.

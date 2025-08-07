@@ -1,0 +1,29 @@
+{
+  "name": "raan",
+  "version": "1.0.0",
+  "description": "[R]eliable [A]gentic [A]I [N]otebook",
+  "homepage": "https://github.com/raisga/.RAAN#readme",
+  "bugs": {
+    "url": "https://github.com/raisga/.RAAN/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raisga/.RAAN.git"
+  },
+  "license": "EDU",
+  "author": "jraleman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "./scripts run.sh",
+    "build": "./scripts build.sh",
+    "env:setup": "./scripts setup.sh",
+    "env:activate": "source ./_agent.RAAN/venv/bin/activate",
+    "env:clean": "./scripts clean.sh",
+    "print:pdf": "./scripts pdf.sh",
+    "print:web": "./scripts slideshow.sh"
+  },
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "^1.0.69"
+  }
+}
