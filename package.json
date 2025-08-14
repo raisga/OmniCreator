@@ -15,13 +15,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "./scripts run.sh",
-    "build": "./scripts build.sh",
-    "env:setup": "./scripts setup.sh",
-    "env:activate": "source ./_agent.RAAN/venv/bin/activate",
-    "env:clean": "./scripts clean.sh",
-    "print:pdf": "./scripts pdf.sh",
-    "print:web": "./scripts slideshow.sh"
+    "start": "./scripts/run.sh",
+    "build": "./scripts/build.sh",
+    "env:setup": "./scripts/setup.sh",
+    "env:clean": "./scripts/clean.sh",
+    "save:pdf": "./scripts/pdf.sh",
+    "save:web": "./scripts/slideshow.sh"
   },
   "devDependencies": {
     "@anthropic-ai/claude-code": "^1.0.69"
